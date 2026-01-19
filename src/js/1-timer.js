@@ -13,6 +13,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 };
 
+refs.startBtn.disabled = true;
 let userDate;
 
 const options = {
