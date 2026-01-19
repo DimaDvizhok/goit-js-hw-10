@@ -5,17 +5,9 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
+
 @import url('./base.css');
 
 /* Sections style */
-@import url('./1-gallery.css');
-@import url('./2-form.css');
-
-.index-list {
-  margin: 50px;
-  font-size: 20px;
-}
-.index-item:first-child {
-  margin-bottom: 10px;
-}
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');

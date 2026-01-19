@@ -1,15 +1,15 @@
 {
-  "name": "goit-js-hw-09",
+  "name": "goit-js-hw-10",
   "version": "1.0.0",
   "private": true,
   "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
-  "homepage": "https://github.com/DimaDvizhok/goit-js-hw-09#readme",
+  "homepage": "https://github.com/DimaDvizhok/goit-js-hw-10#readme",
   "bugs": {
     "url": "https://github.com/DimaDvizhok/goit-js-hw-09/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DimaDvizhok/goit-js-hw-09.git"
+    "url": "git+https://github.com/DimaDvizhok/goit-js-hw-10.git"
   },
   "license": "ISC",
   "author": "Dvizhok",
@@ -17,11 +17,12 @@
   "main": "vite.config.js",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --base=/goit-js-hw-09/",
+    "build": "vite build --base=/goit-js-hw-10/",
     "preview": "vite preview"
   },
   "dependencies": {
-    "simplelightbox": "^2.14.3",
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   },
