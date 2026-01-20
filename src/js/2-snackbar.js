@@ -35,6 +35,8 @@ form.addEventListener('submit', event => {
         position: 'topRight',
         timeout: 4000,
       });
+    })
+    .finally(() => {
+      form.reset();
     });
-  form.reset();
 });
