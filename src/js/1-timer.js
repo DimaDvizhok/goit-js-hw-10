@@ -29,8 +29,8 @@ const options = {
 
     if (selectedDate <= nowTime) {
       iziToast.error({
-        title: 'Помилка',
-        message: 'Виберіть дату у майбутньому',
+        title: 'Error',
+        message: 'Please choose a date in the future',
         position: 'topRight',
       });
       refs.startBtn.disabled = true;
